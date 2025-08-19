@@ -115,43 +115,6 @@ Final Project DL4AI/
 - **Vietnam**: Vietnam Airlines (VNA) historical data
 - **Portfolio**: NASDAQ-100 Industrial sector companies
 
-## How to Run
-
-### Requirements
-- Python 3.7+
-- TensorFlow 2.x
-- pandas, numpy, matplotlib, scikit-learn
-- Google Colab (recommended) or Jupyter Notebook
-
-### Setup Instructions
-
-1. **Upload to Google Colab**:
-   ```python
-   from google.colab import drive
-   drive.mount('/content/drive')
-   ```
-
-2. **Update file paths** in each notebook:
-   ```python
-   path = '/content/drive/MyDrive/Final Project DL4AI/your_file_here...'
-   ```
-
-3. **Run notebooks in sequence**:
-   - Start with `1.NASDAQStockPricePrediction.ipynb`
-   - Continue with `2.VietnamStockPricePrediction.ipynb`
-   - Run `3.VietnamTradingPointIdentification.ipynb`
-   - Finish with `4.NASDAQPortfolio.ipynb`
-
-### Alternative Local Setup
-1. Install required packages:
-   ```bash
-   pip install tensorflow pandas numpy matplotlib scikit-learn yfinance
-   ```
-
-2. Update all file paths to local directories
-
-3. Run notebooks sequentially
-
 ## Results Interpretation
 
 ### Model Performance
